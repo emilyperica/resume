@@ -1,0 +1,213 @@
+%-------------------------
+% Template
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Emily Perica} \\ \vspace{1pt}
+    \textbf{\small 5th Year Software Engineering Co-op Student} \\ \vspace{1pt}
+    \small 905-580-5170 $|$ \href{mailto:pericae@mcmaster.ca}{\underline{pericae@mcmaster.ca}} $|$ 
+    \href{https://www.linkedin.com/in/emily-perica/}{\underline{linkedin.com/in/emily-perica}} $|$
+    \href{https://https://github.com/emilyperica}{\underline{github.com/emilyperica}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {McMaster University}{Sept 2020 -- Present}
+      {Bachelor of Engineering in Software Engineering}{Hamilton, ON}
+      \resumeItem{CGPA: 3.4}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+    \resumeSubHeadingListStart
+
+        \resumeSubheading
+            {Wealthsimple}{May 2024 -- Aug 2024}
+            {Security Intern}{Toronto, ON}
+        \resumeItemListStart
+            \resumeItem{TBD}
+        \resumeItemListEnd
+
+        \resumeSubheading
+            {SOTI}{Jan 2023 -- Aug 2023}
+            {Software Developer Intern}{Missisauga, ON}
+        \resumeItemListStart
+            \resumeItem{Using MVC architecture and ASP.NET, developed an internal tool for company-wide use to increase efficiency in discovering errors unknowingly introduced by developers into the backend. Reduced time spent on error discovery by 50\%, and reduced cost of resources used by 75\%.}
+            \resumeItem{Using Agile methodology, participated in daily standups, code reviews, and sprints with Jira and Git.}
+            \resumeItem{Performed API testing and wrote unit and integration tests for BDD in Cucumber and C\# to a company-wide CI/CD Jenkins pipeline.}
+        \resumeItemListEnd
+
+   \resumeSubHeadingListEnd
+
+%-----------Extracurriculars-----------
+\section{Extracurriculars}
+    \resumeSubHeadingListStart
+
+        \resumeSubheading
+            {McMaster EcoCAR}{Oct 2022 -- Present}
+            {Path Planning Algorithms SME}{}
+        \resumeItemListStart
+            \resumeItem{Acted as the Path Planning Subject Matter Expert for the Connected and Autonomous Vehicle (CAV) subteam,
+            providing support for 10 subteam members.}
+            \resumeItem{Developed documentation for the Connected and Autonomous Cruise Control (CACC) subsytem to be implemented on a Cadillac Lyriq, receiving 1st place amongst 13 teams.}
+            \resumeItem{Researched and implemented (in Python) Lane Centering and Intersection Navigation algorithms for use within the CACC subsystem.}            
+        \resumeItemListEnd
+
+        \resumeSubheading
+            {Software Engineering Society}{Mar 2022 -- Present}
+            {VP Academic}{}
+        \resumeItemListStart
+            \resumeItem{Liaised between students in the Software Engineering department and the faculty, representing and advocating for student voices.}
+            \resumeItem{Organized and ran various Professional Development events, including a Co-op Panel.}
+            \resumeItem{Attended and provided reports at weekly society meetings, collaborating with other executive members.}
+        \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        
+      \resumeProjectHeading
+          {\textbf{Sumobot}}{Dec 2020 -- Apr 2021}
+          \resumeItemListStart
+            \resumeItem{Built, wired, and programmed an autonomous ‘sumobot’ to compete against other robots in a competition where the goal is to push the other bot out of a ring.}
+            \resumeItem{Programmed an Arduino to control a servo motor based on input from various sensors.}
+            \resumeItem{Won the Creative Design award in the McMaster Sumobot Competition.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Illuminate (Android App)}}{Feb 2022}
+          \resumeItemListStart
+            \resumeItem{Using Dart with the Flutter framework, developed a mobile application within a team for providing female identifying individuals with information on women’s health.}
+            \resumeItem{Won within the “Seeing the future” category}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C\#, C/C++, Ruby, SQL (MSSQL), R, MATLAB} \\
+     \textbf{Frameworks}{: JUnit, Pytest, Cucumber, Rails, ASP.NET} \\
+     \textbf{Developer Tools}{: Git, Docker, Jenkins, Github Actions, Jira} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
