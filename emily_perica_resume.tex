@@ -107,107 +107,95 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
-    \textbf{\Huge \scshape Emily Perica} \\ \vspace{1pt}
-    \textbf{\small 5th Year Software Engineering Co-op Student} \\ \vspace{1pt}
-    \small 905-580-5170 $|$ \href{mailto:pericae@mcmaster.ca}{\underline{pericae@mcmaster.ca}} $|$ 
+    \textbf{\Huge \scshape Emily Perica}
+
+    \vspace{1pt}
+    \textbf{\small 5th Year Software Engineering Co-op Student} \\ 
+    \vspace{1pt}
+    \small 905-580-5170 $|$ \href{mailto:emilyperica@gmail.com}{\underline{emilyperica@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/emily-perica/}{\underline{linkedin.com/in/emily-perica}} $|$
-    \href{https://https://github.com/emilyperica}{\underline{github.com/emilyperica}}
+    \href{https://github.com/emilyperica}{\underline{github.com/emilyperica}}
 \end{center}
 
 
 %-----------EDUCATION-----------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {McMaster University}{Sept 2020 -- Present}
-      {Bachelor of Engineering in Software Engineering}{Hamilton, ON}
-      \resumeItem{CGPA: 3.4}
-  \resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeSubheading{McMaster University}{Sept 2020 -- Apr 2025}{Bachelor of Engineering, Software Engineering Co-op}{Hamilton, ON}
+    \resumeItemListStart
+      \resumeItem{\textbf{CGPA}: 3.6}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
 \section{Experience}
-    \resumeSubHeadingListStart
 
-        \resumeSubheading
-            {Wealthsimple}{May 2024 -- Aug 2024}
-            {Security Intern}{Toronto, ON}
-        \resumeItemListStart
-            \resumeItem{TBD}
-        \resumeItemListEnd
-
-        \resumeSubheading
-            {SOTI}{Jan 2023 -- Aug 2023}
-            {Software Developer Intern}{Missisauga, ON}
-        \resumeItemListStart
-            \resumeItem{Using MVC architecture and ASP.NET, developed an internal tool for company-wide use to increase efficiency in discovering errors unknowingly introduced by developers into the backend. Reduced time spent on error discovery by 50\%, and reduced cost of resources used by 75\%.}
-            \resumeItem{Using Agile methodology, participated in daily standups, code reviews, and sprints with Jira and Git.}
-            \resumeItem{Performed API testing and wrote unit and integration tests for BDD in Cucumber and C\# to a company-wide CI/CD Jenkins pipeline.}
-        \resumeItemListEnd
-
-   \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeSubheading{Wealthsimple}{May 2024 -- Aug 2024}{Application Security Developer Intern}{Toronto, ON}
+    \resumeItemListStart
+      \resumeItem{Developed and deployed an internal microservice with \textbf{Ruby on Rails}, \textbf{AWS ECR}, and \textbf{ArgoCD} to replace external infrastructure for hosting security automations.}
+      \resumeItem{Played a key role in deploying SAST, SCA, and secrets detection tools across CI/CD pipelines, working closely with feature and DevOps teams to automate \textbf{vulnerability detection} and safeguard sensitive information.}
+    \resumeItemListEnd
+  \resumeSubheading{SOTI}{Jan 2023 -- Aug 2023}{Software Developer Intern}{Missisauga, ON}
+    \resumeItemListStart
+      \resumeItem{Developed an internal tool in \textbf{C\#} with \textbf{ASP.NET}, integrated with Jenkins and GitHub APIs, to improve backend error detection. Reduced error discovery time by \textbf{50\%} and resource costs by \textbf{75\%}.}
+      \resumeItem{Conducted API testing and developed unit and integration tests in C\# for \textbf{BDD with Cucumber}, integrating them into a CI/CD Jenkins pipeline to reduce technical debt and improve test coverage.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-----------Extracurriculars-----------
 \section{Extracurriculars}
-    \resumeSubHeadingListStart
 
-        \resumeSubheading
-            {McMaster EcoCAR}{Oct 2022 -- Present}
-            {Path Planning Algorithms SME}{}
-        \resumeItemListStart
-            \resumeItem{Acted as the Path Planning Subject Matter Expert for the Connected and Autonomous Vehicle (CAV) subteam,
-            providing support for 10 subteam members.}
-            \resumeItem{Developed documentation for the Connected and Autonomous Cruise Control (CACC) subsytem to be implemented on a Cadillac Lyriq, receiving 1st place amongst 13 teams.}
-            \resumeItem{Researched and implemented (in Python) Lane Centering and Intersection Navigation algorithms for use within the CACC subsystem.}            
-        \resumeItemListEnd
-
-        \resumeSubheading
-            {Software Engineering Society}{Mar 2022 -- Present}
-            {VP Academic}{}
-        \resumeItemListStart
-            \resumeItem{Liaised between students in the Software Engineering department and the faculty, representing and advocating for student voices.}
-            \resumeItem{Organized and ran various Professional Development events, including a Co-op Panel.}
-            \resumeItem{Attended and provided reports at weekly society meetings, collaborating with other executive members.}
-        \resumeItemListEnd
-    
-    \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+    \resumeSubheading{McMaster EcoCAR}{Oct 2022 -- Present}{Automatic Intersection Navigation (AIN) Lead}{}
+      \resumeItemListStart
+        \resumeItem{Led the development of an Automatic Intersection Navigation controller for the autonomous driving system of a customized Cadillac Lyriq, overseeing end-to-end implementation from initial design to deployment.}
+        \resumeItem{Developed \textbf{C++} algorithms for intersection state detection, as well as intersection approach and departure, enhancing safety and accuracy at connected intersections.}
+        \resumeItem{Built a data processing pipeline to parse \textbf{V2X} (Vehicle-to-Everything) data, isolating signal phase and spatial details for intersection path planning.}  
+        \resumeItem{Defined AIN system requirements and designed \textbf{SIL} (Software-in-the-Loop) testing protocols, ensuring the safety and reliability of critical autonomous driving features.}
+      \resumeItemListEnd
+  \resumeSubheading{Software Engineering Society}{Mar 2022 -- Present}{VP External}{2022-2023}
+    \resumeItemListStart
+      \resumeItem{Organized and led multiple professional development events, including a Co-op Panel and Industry Night, to support students' career growth and industry readiness.}
+      \resumeItemListEnd
+  \vspace{-2pt}
+  \resumeSubSubheading{VP Academic}{2023-2024}
+    \resumeItemListStart
+      \resumeItem{Facilitated meaningful changes in a 2nd year course by engaging in dicussions with both faculty and students, gathering feedback, and collaboratively addressing concerns to enhance the learning experience.}
+    \resumeItemListEnd
+  \vspace{-2pt}
+  \resumeSubSubheading{VP Administration}{2024-2025}
+    \resumeItemListStart
+      \resumeItem{Chaired weekly meetings, coordinating with executives to strategize and implement impactiful society initiatives.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
-    \resumeSubHeadingListStart
-        
-      \resumeProjectHeading
-          {\textbf{Sumobot}}{Dec 2020 -- Apr 2021}
-          \resumeItemListStart
-            \resumeItem{Built, wired, and programmed an autonomous ‘sumobot’ to compete against other robots in a competition where the goal is to push the other bot out of a ring.}
-            \resumeItem{Programmed an Arduino to control a servo motor based on input from various sensors.}
-            \resumeItem{Won the Creative Design award in the McMaster Sumobot Competition.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Illuminate (Android App)}}{Feb 2022}
-          \resumeItemListStart
-            \resumeItem{Using Dart with the Flutter framework, developed a mobile application within a team for providing female identifying individuals with information on women’s health.}
-            \resumeItem{Won within the “Seeing the future” category}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeProjectHeading{\textbf{Secure Chat Application}}{Jan 2024 -- Apr 2024}
+  \resumeItemListStart
+    \resumeItem{Developed an \textbf{AES-256} implementation in Java for an encrypted chat application.}
+    \resumeItem{Utilized \textbf{MVC} architecture for modularity and maintainability between the frontend, backend, and data store.}
+    \resumeItem{Conducted requirements elicitation to develop functional and non-functional requirements, as well as use cases to define system interactions and user needs.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C\#, C/C++, Ruby, SQL (MSSQL), R, MATLAB} \\
-     \textbf{Frameworks}{: JUnit, Pytest, Cucumber, Rails, ASP.NET} \\
-     \textbf{Developer Tools}{: Git, Docker, Jenkins, Github Actions, Jira} \\
-    }}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages}{: Java, Python, C\#, C/C++, Ruby, SQL, R, MATLAB, Bash, Go} \\
+    \textbf{Frameworks}{: JUnit, NUnit, Pytest, Cucumber, Rails, ASP.NET} \\
+    \textbf{Developer Tools}{: Git, Docker, AWS, Jenkins, GitHub Actions, Jira, Kubernetes, ArgoCD} \\
+  }}
  \end{itemize}
 
 
-%-------------------------------------------
 \end{document}
